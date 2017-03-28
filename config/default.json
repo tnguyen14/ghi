@@ -1,0 +1,5 @@
+{
+ 	"user": "$GITHUB_USER",
+	"access_token": "$GITHUB_ACCESS_TOKEN",
+	"repos": []
+}

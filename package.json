@@ -1,0 +1,24 @@
+{
+  "name": "@tridnguyen/ghi",
+  "version": "1.0.0",
+  "description": "Manage projects on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnguyen14/ghi.git"
+  },
+  "author": "Tri Nguyenn <tri@tridnguyen.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnguyen14/ghi/issues"
+  },
+  "homepage": "https://github.com/tnguyen14/ghi#readme",
+  "dependencies": {
+    "getconfig": "^3.0.0",
+    "needle": "^1.6.0"
+  },
+  "devDependencies": {}
+}
