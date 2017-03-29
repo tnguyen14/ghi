@@ -19,7 +19,8 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "getconfig": "^3.0.0",
-    "needle": "^1.6.0"
+    "needle": "^1.6.0",
+    "yargs": "^7.0.2"
   },
   "devDependencies": {}
 }

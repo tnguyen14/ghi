@@ -1,6 +1,22 @@
+#!/usr/bin/env node
+
 require('dotenv').config();
 const needle = require('needle');
 const config = require('getconfig');
+
+
+let argv = require('yargs')
+	.usage('Usage: $0 <command> [options]')
+	.option('create-labels', {
+		describe: 'Create default labels for all repos'
+	})
+	.option('verbose', {
+		alias: 'v',
+		describe: 'verbose mode'
+	})
+	.version()
+	.help()
+	.argv;
 
 let repos = [];
 function getRepos (url, callback) {
