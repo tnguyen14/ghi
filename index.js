@@ -1,5 +1,4 @@
-'use strict';
-
+require('dotenv').config();
 const needle = require('needle');
 const config = require('getconfig');
 
